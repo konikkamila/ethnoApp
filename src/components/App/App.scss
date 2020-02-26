@@ -1,0 +1,45 @@
+@import 'reset';
+
+header {
+  background-color: #1989ac;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 0.2rem 1rem ;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    nav{
+      display: flex;
+      padding: 0.4rem;
+    }
+    #logo{
+      font-family: 'Permanent Marker', ;
+      i{
+        padding: 0.2rem;
+      }
+    }
+}
+
+
+.container {
+  background-color: #fef4e8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.map{
+  width: 80%
+}
+
+
